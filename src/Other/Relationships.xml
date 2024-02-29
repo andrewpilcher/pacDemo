@@ -1,2 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_chhsdev_item" />
+  <EntityRelationship Name="business_unit_chhsdev_order" />
+  <EntityRelationship Name="chhsdev_Item_Order_Relation" />
+  <EntityRelationship Name="lk_chhsdev_item_createdby" />
+  <EntityRelationship Name="lk_chhsdev_item_modifiedby" />
+  <EntityRelationship Name="lk_chhsdev_order_createdby" />
+  <EntityRelationship Name="lk_chhsdev_order_modifiedby" />
+  <EntityRelationship Name="owner_chhsdev_item" />
+  <EntityRelationship Name="owner_chhsdev_order" />
+  <EntityRelationship Name="team_chhsdev_item" />
+  <EntityRelationship Name="team_chhsdev_order" />
+  <EntityRelationship Name="user_chhsdev_item" />
+  <EntityRelationship Name="user_chhsdev_order" />
+</EntityRelationships>
