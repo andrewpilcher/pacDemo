@@ -12,6 +12,7 @@
   <WebResources />
   <CustomControls />
   <EntityDataProviders />
+  <CanvasApps />
   <Languages>
     <Language>1033</Language>
   </Languages>
