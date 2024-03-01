@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>chhsdev_tabletui_774a0</Name>
-  <AppVersion>2024-03-01T00:33:21Z</AppVersion>
+  <AppVersion>2024-03-01T00:39:46Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.24022.17.0</CreatedByClientVersion>
   <MinClientVersion>3.24022.17.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24022.17","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","offlineLargeFilesSupport":"false"}</Tags>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24022.17","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","offlineLargeFilesSupport":"false","sienaVersion":"20240301T003321Z-3.24022.17.0"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
-  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <BackgroundColor>rgba(114, 116, 115, 1)</BackgroundColor>
   <DisplayName>Tablet UI</DisplayName>
-  <Description xsi:nil="true"></Description>
+  <Description>This is testing the ALM</Description>
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
   <ConnectionReferences>{}</ConnectionReferences>
-  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"NotSpecified","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Orders":{"entitySetName":"chhsdev_orders","logicalName":"chhsdev_order"},"Items":{"entitySetName":"chhsdev_items","logicalName":"chhsdev_item"}}}}</DatabaseReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Orders":{"entitySetName":"chhsdev_orders","logicalName":"chhsdev_order"},"Items":{"entitySetName":"chhsdev_items","logicalName":"chhsdev_item"}}}}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
   <CanConsumeAppPass>1</CanConsumeAppPass>
