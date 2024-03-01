@@ -1,0 +1,95 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "chhsdev_items",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "chhsdev_item",
+    "Name": "Items",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "chhsdev_item_AsyncOperations": "System Jobs",
+      "chhsdev_item_BulkDeleteFailures": "Bulk Delete Failures",
+      "chhsdev_item_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "chhsdev_item_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "chhsdev_item_ProcessSession": "Process Sessions",
+      "chhsdev_item_SyncErrors": "Sync Errors",
+      "chhsdev_itemid": "Item",
+      "chhsdev_name": "Name",
+      "chhsdev_Order": "Order",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Items",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Items (Views)",
+    "Name": "_chhsdev_item_views",
+    "RelatedEntityName": "Items",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1fc2e1f6-f54f-456c-852a-1b10c52258f4": "Active Items",
+      "453ae805-85ff-430e-8873-4688ea067904": "Item Associated View",
+      "c0b02922-33d0-4822-9c19-e3ef7be25d3f": "Inactive Items",
+      "cc23b2e7-9148-4afd-8188-b3993bc0ec13": "Item Advanced Find View",
+      "e6c856a3-ed57-4f9f-886b-de0a9c831e8c": "Item Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (Items)",
+    "Name": "chhsdev_item_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Items"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Items",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Items)",
+    "Name": "chhsdev_item_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Items"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Items",
+    "Type": "OptionSetInfo"
+  }
+]

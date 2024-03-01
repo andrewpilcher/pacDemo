@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_chhsdev_order_forms",
+      "Namespace": "Orders (Forms)",
+      "Values": {
+        "Information": "e046eac1-71cc-4c38-ac6c-6de789a8e03a"
+      }
+    },
+    {
+      "Kind": "default.cds_chhsdev_item_forms",
+      "Namespace": "Items (Forms)",
+      "Values": {
+        "Information": "f19c733f-04bf-4731-98ff-bc49bc62781a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "chhsdev_orders",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "chhsdev_order",
+    "Name": "Orders",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "chhsdev_Item_Order_Relation": "Items",
+      "chhsdev_name": "Name",
+      "chhsdev_order_AsyncOperations": "System Jobs",
+      "chhsdev_order_BulkDeleteFailures": "Bulk Delete Failures",
+      "chhsdev_order_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "chhsdev_order_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "chhsdev_order_ProcessSession": "Process Sessions",
+      "chhsdev_order_SyncErrors": "Sync Errors",
+      "chhsdev_orderid": "Order",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Orders",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Orders (Views)",
+    "Name": "_chhsdev_order_views",
+    "RelatedEntityName": "Orders",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1637348a-5288-42b8-ae7a-3739416b2761": "Order Lookup View",
+      "390a6cde-661a-46bb-ab09-ca984ddee7db": "Order Associated View",
+      "8eea690c-54d8-46bc-aa0a-7870f71d2155": "Active Orders",
+      "ec37559b-7d49-4fa5-bf78-820a30c64c11": "Inactive Orders",
+      "fd138460-7481-4069-9bb3-b9f4a5dd7e89": "Order Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Orders)",
+    "Name": "chhsdev_order_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Orders"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Orders",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Orders)",
+    "Name": "chhsdev_order_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Orders"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Orders",
+    "Type": "OptionSetInfo"
+  }
+]
